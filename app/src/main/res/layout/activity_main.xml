@@ -68,6 +68,7 @@
         android:gravity="center"
         android:layout_marginTop="50dp"
         android:layout_centerInParent="true">
+
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
@@ -75,6 +76,7 @@
             android:backgroundTint="@color/black"
             android:text="add to count">
         </Button>
+
         <Button
             android:id="@+id/button_reset"
             android:layout_width="wrap_content"
@@ -82,6 +84,12 @@
             android:backgroundTint="@color/cardview_dark_background"
             android:text="Reset count">
         </Button>
+
+        <TextView
+            android:id="@+id/testEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi, this is my test edit!" />
     </LinearLayout>
 
 </RelativeLayout>
