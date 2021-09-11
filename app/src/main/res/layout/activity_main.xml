@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="100dp"
+    android:layout_marginTop="50dp"
     android:layout_marginLeft="50dp"
     android:layout_marginRight="50dp"
     tools:context=".MainActivity">
@@ -34,7 +34,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/count"
-            android:text="0"
+            android:text="Loading..."
+            android:textSize="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weather at your Location: "
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weather"
+            android:text="Loading..."
             android:textSize="40dp"
             android:layout_marginTop="5dp"
             android:layout_gravity="center_horizontal"
